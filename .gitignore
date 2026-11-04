@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Competition data and trained artifacts stay out of Git.
+data/raw/*
+!data/raw/.gitkeep
+models/
+outputs/
+.cache/
